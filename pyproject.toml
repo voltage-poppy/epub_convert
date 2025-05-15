@@ -1,6 +1,6 @@
 [project]
 name = "epub-convert"
-version = "0.1.0"
+version = "0.1.1"
 description = "Convert EPUB files between Simplified Chinese and Traditional Chinese."
 readme = "README.md"
 requires-python = ">=3.7"
@@ -9,5 +9,5 @@ dependencies = [
 ]
 
 [project.scripts]
-convert-s2t = "epub_convert.s2t:main"
-convert-t2s = "epub_convert.t2s:main"
+epub-s2t = "epub_convert.s2t:main"
+epub-t2s = "epub_convert.t2s:main"

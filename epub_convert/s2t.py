@@ -40,7 +40,7 @@ def convert_content(content):
 def s2t(text):
     return converter.convert(text)
 
-if __name__ == "__main__":
+def main():
     import argparse
     import glob
     import time
@@ -75,3 +75,7 @@ if __name__ == "__main__":
         with open(Path.joinpath(directory, output_fn), "wb") as f:
             f.write(buffer.getvalue())
         print(f"File {fn} is successfully converted. Time elapsed: {round(time.time() - t, 2)}s")
+
+
+if __name__ == "__main__":
+    main()
