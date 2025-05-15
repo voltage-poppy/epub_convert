@@ -35,3 +35,25 @@ $ python web.py
     </Directory>
 </VirtualHost>
 ```
+
+## Installation
+
+
+```shell
+pip install git+https://github.com/voltage-poppy/epub_convert.git
+```
+
+or
+```shell
+uv tool install git+https://github.com/voltage-poppy/epub_convert.git
+```
+
+To uninstall, run
+```
+pip uninstall epub-convert
+```
+
+or 
+```
+uv tool uninstall epub-convert
+```
