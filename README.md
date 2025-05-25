@@ -48,6 +48,8 @@ or
 uv tool install git+https://github.com/voltage-poppy/epub_convert.git
 ```
 
+Two command line tools `epub-s2t` and `epub-t2s` will be available after installation.
+
 To uninstall, run
 ```
 pip uninstall epub-convert
